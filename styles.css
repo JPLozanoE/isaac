@@ -13,8 +13,10 @@ html {
     padding-right: 16px;
     padding-top: 32px;
     border-bottom: 10px solid rgba(240, 46, 170, 0.3) 10px 10px;
-    transition: color 2s;
+    transition: color .2s;
     cursor: pointer;
+    text-decoration: none;
+    color: #f02ea9;
 }
 a:hover {
     color: #f02ea9;
