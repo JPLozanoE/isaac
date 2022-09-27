@@ -1,0 +1,78 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    background: #f4f5f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.direction-right {
+    float: right;
+}
+
+.direction-left {
+    float: left;
+}
+
+.header {
+    width: 100%;
+    background-color: #ffff;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.container {
+    width: 70%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.centered {
+    display: inline-block;
+}
+
+.categories {
+    margin-top: 32px;
+}
+
+.box {
+    width: 30%;
+    margin: 8px;
+    float: right;
+    text-align: center;
+}
+
+div.box>* {
+    cursor: pointer;
+}
+
+div.box>*:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.models {
+    background-image: url('https://vansmx.vtexassets.com/_v/public/assets/v1/published/vansmx.image-menu@0.1.30/public/react/9512e0a55d0f4c74e2e15a39f95de6fb.jpg');
+}
+
+
+.vansmx-image-menu-0-x-imagesShoes{
+    display: inline-block;
+    width: 100%;
+}
+
+.vansmx-image-menu-0-x-shoeDiv{
+    width: 20%;
+    display: inline-block;
+    height: 100%;
+}
+
+.vansmx-image-menu-0-x-imgS{
+    height: 100%;
+    width: 100%;
+}
